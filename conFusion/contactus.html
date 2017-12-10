@@ -2,6 +2,20 @@
 <html lang="en">
 
 <head>
+    <!-- 
+    Lancement de LITE-SERVER sur NPM
+
+    node.js command prompt
+    
+    se positionner sur le répertoire où sont placées les pages html
+    et le fichier json de configuration node
+
+    npm run lite-server
+
+    le navigateur est lancé automatique sur localhost:3300, sur la page index.html
+    pour une autre page : localhost:3300/mapage.html
+        
+    -->
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,18 +35,18 @@
     <nav class="navbar navbar-inverse navbar-expand-sm fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="fa fa-navicon fa-lg"></span>
+            </button> 
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> Informations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>  
-            </div>                          
+            </div>                                
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
     </nav>
 
     <header class="jumbotron">
@@ -202,10 +216,12 @@
         </div>
     </footer>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/tether/dist/js/tether.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- jQuery first, then Tether, then Bootstrap JS.  -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/tether/dist/js/tether.min.js"></script>
+  
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
