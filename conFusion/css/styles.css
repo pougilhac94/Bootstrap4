@@ -53,6 +53,10 @@ body{
     color:floralwhite;
 }
 
+.modal-content{
+    color:black;
+}
+
 .navbar-inverse {
      background-color: #512DA8;
 }
