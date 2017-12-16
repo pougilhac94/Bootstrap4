@@ -21,12 +21,21 @@ body{
     z-index:0;
 }
 
+.card-block {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
 .carousel {
     background:#512DA8;
 }
+
 .carousel-item {
   height: 300px;
 }
+
 .carousel-item img {
     position: absolute;
     top: 0;
@@ -68,9 +77,8 @@ body{
     padding: 10px;
 }
 
-.card-block {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
 }
