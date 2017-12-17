@@ -82,9 +82,13 @@ body{
     bottom: 0px;
 }
 
-// ajout pour mettre des cercles à la place de barers
+// ajout pour mettre des cercles à la place de barres
 .carousel-indicators li {
     width: 10px;
     height:10px;
     border-radius: 100%;
+    }
+// Couleur perdue sur formulaire du jumbotron
+#reservationModal {
+    color:#0f0f0f;
     }
