@@ -14,3 +14,17 @@ $(document).ready(function(){
         }
     });
 });
+<!-- Script appel manuel du formulaire de login  -->
+$(this).click(function(){
+    $("#lnkLogin").children("a").first()
+        .attr("data-toggle","modal")
+        .attr("data-target","#loginModal" )
+});
+<!-- Script appel manuel du formulaire de réservation  -->
+$("#btnReserver").click(function(){
+    $(this).children("a").first()
+        .attr("data-html","true" )
+        .attr("data-placement","bottom" )
+        .attr("data-toggle","modal" )
+        .attr("data-target","#reservationModal" )
+});

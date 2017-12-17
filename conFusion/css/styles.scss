@@ -92,3 +92,17 @@ body{
 #reservationModal {
     color:#0f0f0f;
     }
+// couleurs pour les formulaires
+.modal-header{
+    background-color: $background-dark;
+    color:floralwhite;
+    .close{
+        color:floralwhite;
+    }
+}
+.modal-body{
+    background-color: $background-pale;
+}
+.modal-footer{
+    background-color: $background-light;
+}
